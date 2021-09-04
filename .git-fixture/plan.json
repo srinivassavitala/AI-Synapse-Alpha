@@ -2,6 +2,7 @@
   "repo": "AI-SynapseIQ",
   "kind": "fullstack",
   "seed": 284390547,
+  "target_commits": 584,
   "author_weights": {
     "Batman": 0.10422301786200595,
     "Noc2": 0.0685768558038308,
@@ -14,7 +15,8 @@
     "0xCaso": 0.0796619595682068,
     "PieWol": 0.04719100066766145
   },
-  "commits_to_add": 424,
-  "date_start": "2021-09-04T10:51:33.107431+00:00",
-  "date_end": "2026-08-26T17:33:09.107431+00:00"
+  "commits_to_add": 83,
+  "epoch_start": 487,
+  "date_start": "2021-09-04T10:51:33.617095+00:00",
+  "date_end": "2026-08-26T18:12:10.617095+00:00"
 }
