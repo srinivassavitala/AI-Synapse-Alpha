@@ -64,3 +64,5 @@
 - epoch 62: core_features
 - epoch 1: bootstrap
 - epoch 63: core_features
+- epoch 2: bootstrap
+- epoch 3: bootstrap
