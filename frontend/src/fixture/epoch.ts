@@ -5,3 +5,6 @@ export const e2 = 2;
 
 // epoch 3
 export const e3 = 3;
+
+// epoch 4
+export const e4 = 4;
