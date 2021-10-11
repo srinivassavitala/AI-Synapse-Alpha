@@ -23,3 +23,6 @@ export const e8 = 8;
 
 // epoch 9
 export const e9 = 9;
+
+// epoch 10
+export const e10 = 10;
