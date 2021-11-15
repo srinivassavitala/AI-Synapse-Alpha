@@ -26,3 +26,6 @@ export const e9 = 9;
 
 // epoch 10
 export const e10 = 10;
+
+// epoch 11
+export const e11 = 11;
