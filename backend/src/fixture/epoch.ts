@@ -41,3 +41,6 @@ export const e14 = 14;
 
 // epoch 15
 export const e15 = 15;
+
+// epoch 16
+export const e16 = 16;
