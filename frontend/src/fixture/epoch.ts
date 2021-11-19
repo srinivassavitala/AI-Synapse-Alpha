@@ -56,3 +56,6 @@ export const e19 = 19;
 
 // epoch 20
 export const e20 = 20;
+
+// epoch 21
+export const e21 = 21;
