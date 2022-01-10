@@ -1373,3 +1373,6 @@ export const e521 = 521;
 
 // epoch 522
 export const e522 = 522;
+
+// epoch 523
+export const e523 = 523;
