@@ -1382,3 +1382,6 @@ export const e524 = 524;
 
 // epoch 525
 export const e525 = 525;
+
+// epoch 526
+export const e526 = 526;
