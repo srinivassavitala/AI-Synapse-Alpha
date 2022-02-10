@@ -101,3 +101,4 @@
 - epoch 36: bootstrap
 - epoch 37: bootstrap
 - epoch 38: bootstrap
+- epoch 39: bootstrap
