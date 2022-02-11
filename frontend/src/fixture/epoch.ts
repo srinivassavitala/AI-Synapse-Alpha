@@ -113,3 +113,6 @@ export const e38 = 38;
 
 // epoch 39
 export const e39 = 39;
+
+// epoch 40
+export const e40 = 40;
