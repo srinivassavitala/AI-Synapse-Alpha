@@ -106,3 +106,4 @@
 - epoch 41: bootstrap
 - epoch 42: bootstrap
 - epoch 43: bootstrap
+- epoch 44: core_features
