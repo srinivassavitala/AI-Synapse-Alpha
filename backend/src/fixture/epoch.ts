@@ -125,3 +125,6 @@ export const e42 = 42;
 
 // epoch 43
 export const e43 = 43;
+
+// epoch 44
+export const e44 = 44;
