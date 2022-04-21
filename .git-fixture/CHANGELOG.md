@@ -51,3 +51,4 @@
 - epoch 49: bootstrap
 - epoch 50: core_features
 - epoch 51: core_features
+- epoch 52: core_features
