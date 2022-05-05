@@ -152,3 +152,6 @@ export const e51 = 51;
 
 // epoch 52
 export const e52 = 52;
+
+// epoch 53
+export const e53 = 53;
