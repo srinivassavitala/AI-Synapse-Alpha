@@ -179,3 +179,6 @@ export const e60 = 60;
 
 // epoch 61
 export const e61 = 61;
+
+// epoch 62
+export const e62 = 62;
