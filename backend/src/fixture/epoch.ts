@@ -1454,3 +1454,6 @@ export const e548 = 548;
 
 // epoch 549
 export const e549 = 549;
+
+// epoch 550
+export const e550 = 550;
