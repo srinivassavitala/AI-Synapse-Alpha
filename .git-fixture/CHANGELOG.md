@@ -148,3 +148,4 @@
 - epoch 83: core_features
 - epoch 84: core_features
 - epoch 85: core_features
+- epoch 86: testing
