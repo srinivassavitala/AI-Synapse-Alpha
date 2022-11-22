@@ -260,3 +260,6 @@ export const e87 = 87;
 
 // epoch 88
 export const e88 = 88;
+
+// epoch 89
+export const e89 = 89;
