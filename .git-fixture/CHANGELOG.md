@@ -158,3 +158,4 @@
 - epoch 93: testing
 - epoch 94: testing
 - epoch 95: testing
+- epoch 96: testing
