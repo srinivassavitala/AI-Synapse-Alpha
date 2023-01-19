@@ -302,3 +302,6 @@ export const e101 = 101;
 
 // epoch 102
 export const e102 = 102;
+
+// epoch 103
+export const e103 = 103;
