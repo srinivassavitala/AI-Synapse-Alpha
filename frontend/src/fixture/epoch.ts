@@ -428,3 +428,6 @@ export const e143 = 143;
 
 // epoch 144
 export const e144 = 144;
+
+// epoch 145
+export const e145 = 145;
