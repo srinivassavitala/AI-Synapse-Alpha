@@ -587,3 +587,6 @@ export const e196 = 196;
 
 // epoch 197
 export const e197 = 197;
+
+// epoch 198
+export const e198 = 198;
