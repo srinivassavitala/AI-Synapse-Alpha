@@ -701,3 +701,6 @@ export const e234 = 234;
 
 // epoch 235
 export const e235 = 235;
+
+// epoch 236
+export const e236 = 236;
