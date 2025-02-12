@@ -722,3 +722,6 @@ export const e241 = 241;
 
 // epoch 242
 export const e242 = 242;
+
+// epoch 243
+export const e243 = 243;
