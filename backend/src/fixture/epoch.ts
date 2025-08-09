@@ -806,3 +806,6 @@ export const e269 = 269;
 
 // epoch 270
 export const e270 = 270;
+
+// epoch 271
+export const e271 = 271;
