@@ -884,3 +884,6 @@ export const e295 = 295;
 
 // epoch 296
 export const e296 = 296;
+
+// epoch 297
+export const e297 = 297;
