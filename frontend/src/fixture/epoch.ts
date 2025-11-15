@@ -917,3 +917,6 @@ export const e306 = 306;
 
 // epoch 307
 export const e307 = 307;
+
+// epoch 308
+export const e308 = 308;
