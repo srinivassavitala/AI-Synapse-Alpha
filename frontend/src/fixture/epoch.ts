@@ -983,3 +983,6 @@ export const e328 = 328;
 
 // epoch 329
 export const e329 = 329;
+
+// epoch 330
+export const e330 = 330;
