@@ -1031,3 +1031,6 @@ export const e344 = 344;
 
 // epoch 345
 export const e345 = 345;
+
+// epoch 346
+export const e346 = 346;
