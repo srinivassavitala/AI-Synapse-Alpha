@@ -1091,3 +1091,6 @@ export const e364 = 364;
 
 // epoch 365
 export const e365 = 365;
+
+// epoch 366
+export const e366 = 366;
