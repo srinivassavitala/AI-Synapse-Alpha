@@ -1112,3 +1112,6 @@ export const e371 = 371;
 
 // epoch 372
 export const e372 = 372;
+
+// epoch 373
+export const e373 = 373;
