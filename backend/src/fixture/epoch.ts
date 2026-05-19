@@ -1205,3 +1205,6 @@ export const e402 = 402;
 
 // epoch 403
 export const e403 = 403;
+
+// epoch 404
+export const e404 = 404;
