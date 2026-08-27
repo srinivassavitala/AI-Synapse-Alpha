@@ -1265,3 +1265,6 @@ export const e422 = 422;
 
 // epoch 423
 export const e423 = 423;
+
+// epoch 424
+export const e424 = 424;
