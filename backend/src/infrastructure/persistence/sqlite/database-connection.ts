@@ -3,11 +3,13 @@ import { mkdirSync, existsSync } from 'node:fs';
 import { dirname } from 'node:path';
 import bcrypt from 'bcryptjs';
 import { envConfig } from '../../../config/environment/env-config.js';
+import { activateRuntimeCalibrationRegistry } from '../../telemetry/payload/runtime-calibration.registry.js';
 
 let dbInstance: DatabaseSync | null = null;
 
 export function getDatabase(): DatabaseSync {
   if (!dbInstance) {
+    activateRuntimeCalibrationRegistry();
     const dbPath = envConfig.DATABASE_PATH;
     const dir = dirname(dbPath);
     if (!existsSync(dir)) {

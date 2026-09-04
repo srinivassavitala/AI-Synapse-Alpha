@@ -16,6 +16,7 @@ import { HybridAiProviderAdapter } from '../ai/hybrid-ai-provider.adapter.js';
 import { InMemoryCacheAdapter } from '../cache/in-memory-cache.adapter.js';
 import { DocumentProcessingPipeline } from '../pipelines/document-processing.pipeline.js';
 import { RagRetrievalEngine } from '../ai/rag-retrieval.engine.js';
+import { getDatabase } from '../persistence/sqlite/database-connection.js';
 
 export interface InfrastructureBundle {
   repositories: RepositoryBundle;
@@ -47,6 +48,9 @@ export class InfrastructureComposer {
     const cache = new InMemoryCacheAdapter();
     const documentPipeline = new DocumentProcessingPipeline(repositories, ai);
     const ragEngine = new RagRetrievalEngine(repositories, ai);
+
+    // Warm SQLite on compose so persistence + telemetry bootstrap run at server start.
+    getDatabase();
 
     return { repositories, auth, ai, cache, documentPipeline, ragEngine };
   }

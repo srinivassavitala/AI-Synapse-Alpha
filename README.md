@@ -315,7 +315,9 @@ The demo workspace ships with pre-seeded documents (Q4 Product Strategy, Custome
 
 ## Environment Variables
 
-Copy the example env file and customize as needed:
+`backend/.env` is **not committed** (secrets stay out of git). After clone or download, run `npm install` or `npm run dev` — both auto-create `backend/.env` from `backend/.env.example`. In development, a safe default `JWT_SECRET` is also applied if the file is missing.
+
+To customize manually:
 
 ```bash
 cp backend/.env.example backend/.env

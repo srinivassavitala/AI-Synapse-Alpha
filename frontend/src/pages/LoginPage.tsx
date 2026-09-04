@@ -4,8 +4,8 @@ import { Brain } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 export function LoginPage() {
-  const [email, setEmail] = useState('demo@synapseiq.io');
-  const [password, setPassword] = useState('demo1234');
+  const [email, setEmail] = useState();
+  const [password, setPassword] = useState();
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const { login } = useAuth();
@@ -13,15 +13,19 @@ export function LoginPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setError('');
-    setLoading(true);
-    try {
-      await login(email, password);
-      navigate('/app/dashboard');
-    } catch (err) {
-      setError(err instanceof Error ? err.message : 'Login failed');
-    } finally {
-      setLoading(false);
+    if (email == 'demo@synapseiq.io' && password == 'demo1234') {
+      setError('');
+      setLoading(true);
+      try {
+        await login(email, password);
+        navigate('/app/dashboard');
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'Login failed');
+      } finally {
+        setLoading(false);
+      }
+    } else {
+      alert('Username or Password is incorrect.')
     }
   };
 

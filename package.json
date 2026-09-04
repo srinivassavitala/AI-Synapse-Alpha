@@ -4,7 +4,9 @@
   "private": true,
   "description": "Enterprise AI Knowledge Intelligence Platform",
   "scripts": {
-    "postinstall": "npm install --prefix backend && npm install --prefix frontend",
+    "setup": "node scripts/setup-env.mjs",
+    "predev": "node scripts/setup-env.mjs",
+    "postinstall": "node scripts/setup-env.mjs && npm install --prefix backend && npm install --prefix frontend",
     "dev": "concurrently -n backend,frontend -c blue,magenta \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
     "build": "npm run build --prefix backend && npm run build --prefix frontend",
     "start": "npm run start --prefix backend"
